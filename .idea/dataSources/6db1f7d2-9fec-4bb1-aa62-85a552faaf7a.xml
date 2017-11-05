@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="shiro@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="shiro">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="campus"/>
+    <schema id="4" parent="1" name="demo"/>
+    <schema id="5" parent="1" name="easyim"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="mysql"/>
+    <schema id="8" parent="1" name="performance_schema"/>
+    <schema id="9" parent="1" name="redis"/>
+    <schema id="10" parent="1" name="sakila"/>
+    <schema id="11" parent="1" name="shawyer"/>
+    <schema id="12" parent="1" name="sys"/>
+    <schema id="13" parent="1" name="test"/>
+    <schema id="14" parent="1" name="testdb"/>
+    <schema id="15" parent="1" name="wms_db"/>
+    <schema id="16" parent="1" name="world"/>
+    <schema id="17" parent="1" name="yim"/>
+    <table id="18" parent="2" name="permissions"/>
+    <table id="19" parent="2" name="role"/>
+    <table id="20" parent="2" name="role_permissions"/>
+    <table id="21" parent="2" name="user"/>
+    <table id="22" parent="2" name="user_role"/>
+    <column id="23" parent="18" name="permissions">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="24" parent="19" name="role">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="25" parent="20" name="role_permissions">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="26" parent="21" name="username">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="27" parent="21" name="password">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="28" parent="22" name="user_role">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
